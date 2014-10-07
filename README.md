@@ -3,14 +3,14 @@
 ## Install
 
 ```
-$> npm install zetta-sine-wave-driver
+$> npm install zetta-sine-wave
 ```
 
 ## Usage
 
 ```javascript
 var zetta = require('zetta');
-var SineWave = require('zetta-sine-wave-driver');
+var SineWave = require('zetta-sine-wave');
 
 zetta()
   .use(SineWave)
