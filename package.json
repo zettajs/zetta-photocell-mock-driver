@@ -10,5 +10,13 @@
     "zetta"
   ],
   "author": "Adam Magaluk <AdamMagaluk@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zettajs/zetta-sine-wave-driver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zettajs/zetta-sine-wave-driver/issues"
+  },
+  "homepage": "https://github.com/zettajs/zetta-sine-wave-driver"
 }
