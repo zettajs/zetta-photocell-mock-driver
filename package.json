@@ -1,0 +1,14 @@
+{
+  "name": "zetta-sine-wave-driver",
+  "version": "0.0.0",
+  "description": "Mock Zetta device that generates a sine wave.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zetta"
+  ],
+  "author": "Adam Magaluk <AdamMagaluk@gmail.com>",
+  "license": "MIT"
+}
