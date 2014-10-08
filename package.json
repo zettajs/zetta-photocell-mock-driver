@@ -1,6 +1,6 @@
 {
   "name": "zetta-sine-wave",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Mock Zetta device that generates a sine wave.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/zettajs/zetta-sine-wave-driver/issues"
   },
-  "homepage": "https://github.com/zettajs/zetta-sine-wave-driver"
+  "homepage": "https://github.com/zettajs/zetta-sine-wave-driver",
+  "dependencies": {
+    "zetta-device": "^0.5.0"
+  }
 }
