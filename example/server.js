@@ -1,6 +1,6 @@
 var zetta = require('zetta');
-var SineWave = require('../index');
+var Photocell = require('../index');
 
 zetta()
-  .use(SineWave)
+  .use(Photocell)
   .listen(1337);

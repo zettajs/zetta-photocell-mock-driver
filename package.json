@@ -1,6 +1,6 @@
 {
-  "name": "zetta-sine-wave",
-  "version": "0.3.0",
+  "name": "zetta-photocell-mock-driver",
+  "version": "0.4.0",
   "description": "Mock Zetta device that generates a sine wave.",
   "main": "index.js",
   "scripts": {
@@ -13,12 +13,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zettajs/zetta-sine-wave-driver.git"
+    "url": "https://github.com/zettajs/zetta-photocell-mock-driver.git"
   },
   "bugs": {
-    "url": "https://github.com/zettajs/zetta-sine-wave-driver/issues"
+    "url": "https://github.com/zettajs/zetta-photocell-mock-driver/issues"
   },
-  "homepage": "https://github.com/zettajs/zetta-sine-wave-driver",
+  "homepage": "https://github.com/zettajs/zetta-photocell-mock-driver",
   "dependencies": {
     "zetta-device": "^0.7.0"
   }

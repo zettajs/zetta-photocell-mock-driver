@@ -1,19 +1,19 @@
-# Zetta Sine Wave Generator
+# Zetta Photocell Mock Driver
 
 ## Install
 
 ```
-$> npm install zetta-sine-wave
+$> npm install zetta-photocell-mock
 ```
 
 ## Usage
 
 ```javascript
 var zetta = require('zetta');
-var SineWave = require('zetta-sine-wave');
+var Photocell = require('zetta-photocell-mock');
 
 zetta()
-  .use(SineWave)
+  .use(Photocell)
   .listen(1337)
 ```
 

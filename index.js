@@ -5,22 +5,22 @@ function degToRad(x) {
   return x * ( Math.PI / 180 );
 }
 
-var WaveGenerator = module.exports = function() {
+var Photocell = module.exports = function() {
   Device.call(this);
-  this.wave = 0;
+  this.intensity = 0;
 };
-util.inherits(WaveGenerator, Device);
+util.inherits(Photocell, Device);
 
-WaveGenerator.prototype.init = function(config) {
+Photocell.prototype.init = function(config) {
   config
-    .name('SineWave')
-    .type('generator')
-    .monitor('wave');
+    .name('photocell')
+    .type('photocell')
+    .monitor('intensity');
 
   var self = this;
   var counter = 0;
   setInterval(function() {
-    self.wave = Math.sin(degToRad(counter));
+    self.intensity = Math.sin(degToRad(counter));
     counter += 15;
   }, 100);
 };
