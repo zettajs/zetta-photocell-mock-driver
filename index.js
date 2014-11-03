@@ -20,7 +20,7 @@ Photocell.prototype.init = function(config) {
   var self = this;
   var counter = 0;
   setInterval(function() {
-    self.intensity = Math.sin(degToRad(counter));
+    self.intensity = Math.sin(degToRad(counter)) + 1.0;
     counter += 15;
   }, 100);
 };
