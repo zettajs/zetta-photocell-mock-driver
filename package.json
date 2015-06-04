@@ -1,6 +1,6 @@
 {
   "name": "zetta-photocell-mock-driver",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Mock Zetta device that generates a sine wave.",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/zettajs/zetta-photocell-mock-driver",
   "dependencies": {
-    "zetta-device": "^0.7.0"
+    "zetta-device": "^0.11.0"
   }
 }
