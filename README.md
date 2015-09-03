@@ -3,7 +3,7 @@
 ## Install
 
 ```
-$> npm install zetta-photocell-mock
+$> npm install zetta-photocell-mock-driver
 ```
 
 ## Usage
