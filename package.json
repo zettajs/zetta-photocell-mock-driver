@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/zettajs/zetta-photocell-mock-driver",
   "dependencies": {
-    "zetta-device": "^0.15.0"
+    "zetta-device": "^0.18.0"
   }
 }
