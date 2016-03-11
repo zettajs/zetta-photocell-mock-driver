@@ -5,15 +5,18 @@ function degToRad(x) {
   return x * ( Math.PI / 180 );
 }
 
-var Photocell = module.exports = function() {
+var Photocell = module.exports = function(opts) {
   Device.call(this);
+  this.opts = opts || {};
   this.intensity = 0;
 };
 util.inherits(Photocell, Device);
 
 Photocell.prototype.init = function(config) {
+  var name = this.opts.name || 'photocell';
+
   config
-    .name('photocell')
+    .name(name)
     .type('photocell')
     .monitor('intensity');
 
