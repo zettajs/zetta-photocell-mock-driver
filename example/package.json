@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "zetta": "^0.11.0"
+    "node.extend": "^1.1.5",
+    "zetta": "^1.0.0-beta.6"
   }
 }

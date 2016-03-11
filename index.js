@@ -18,6 +18,11 @@ Photocell.prototype.init = function(config) {
   config
     .name(name)
     .type('photocell')
+    .state('ready')
+    .when('ready', {allow: ['make-not-ready']})
+    .when('not-ready', {allow: ['make-ready']})
+    .map('make-ready', this.makeReady)
+    .map('make-not-ready', this.makeNotReady)
     .monitor('intensity');
 
   var self = this;
@@ -27,3 +32,13 @@ Photocell.prototype.init = function(config) {
     counter += 15;
   }, 100);
 };
+
+Photocell.prototype.makeReady = function(cb) {
+  this.state = 'ready';
+  cb();
+}
+
+Photocell.prototype.makeNotReady = function(cb) {
+  this.state = 'not-ready'
+  cb();
+}
